@@ -37,8 +37,10 @@ void blinking_fast() {
 }
 
 void loop() {
+  //reading states
   bool button_state_slow = digitalRead(BUTTON_SLOW_PIN);
   bool button_state_fast = digitalRead(BUTTON_FAST_PIN);
+  
   if(button_state_slow == HIGH){
     delay(170);
     current_state[0] = !current_state[0];
