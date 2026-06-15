@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "ESP_BLINK",
+			"path": "../../ESP_BLINK"
+		},
+		{
+			"name": "ESP_BUTTON_LED",
+			"path": "../../ESP_BUTTON_LED"
+		},
+		{
+			"name": "BUTTON_BOUNCE_LOGICANZ",
+			"path": "../../BUTTON_BOUNCE_LOGICANZ"
+		},
+		{
+			"name": "TRANSISTOR_TO_LED",
+			"path": "../../TRANSISTOR_TO_LED"
+		},
+		{
+			"name": "LDR_LED_LIGHT",
+			"path": ".."
+		},
+		{
+			"name": "TEST_RELAY_MODULE",
+			"path": "../../TEST_RELAY_MODULE"
+		}
+	],
+	"settings": {}
+}

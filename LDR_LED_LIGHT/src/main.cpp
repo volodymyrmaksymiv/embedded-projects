@@ -26,6 +26,7 @@ void loop() {
   Serial.println(calc_voltage(read_analog));
   Serial.print("Calculated voltage by analogReadMilivolts(): ");
   Serial.println((double)analogReadMilliVolts(LDR_PIN) / 1000);
+
   delay(100);
   analogWrite(LED_PIN, calculate_led_light(read_analog));
   
