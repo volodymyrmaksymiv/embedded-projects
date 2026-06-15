@@ -77,6 +77,7 @@ void loop() {
   // blinking error
   if(error){ 
     blinkingLed();
+    delay(blinking_delay_val);
   }else { 
     stopBlinking();    
   }
