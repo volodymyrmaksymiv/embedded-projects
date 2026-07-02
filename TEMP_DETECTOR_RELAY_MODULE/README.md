@@ -23,7 +23,7 @@ Embedded device for real-time temperature monitoring with automatic relay contro
 - Push-button
 - Breadboard + jumper wires
 
-##Video
+## Video
 - https://github.com/user-attachments/assets/6be711a6-dd7e-45ee-b022-57f77af99d71
 
 
