@@ -10,6 +10,7 @@ Embedded device for real-time temperature monitoring with automatic relay contro
 ## How it works
 - Voltage divider circuit: 10kΩ resistor + thermistor connected to ESP32 analog input
 - NPN transistor used as a switch to drive the relay module from a GPIO pin
+- Firmware written in C/C++ to read sensor values and implement threshold logic
 - When temperature exceeds threshold, relay module cuts power automatically
 - Blue/red LED indicates alarm
 - Push-button for manual reset
