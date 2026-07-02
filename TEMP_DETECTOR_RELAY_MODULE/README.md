@@ -24,7 +24,7 @@ Embedded device for real-time temperature monitoring with automatic relay contro
 - Breadboard + jumper wires
 
 ##Video
-https://github.com/user-attachments/assets/6be711a6-dd7e-45ee-b022-57f77af99d71
+- https://github.com/user-attachments/assets/6be711a6-dd7e-45ee-b022-57f77af99d71
 
 
 
