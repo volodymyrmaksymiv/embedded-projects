@@ -5,7 +5,6 @@
 unsigned long previous_millis = 0;
 volatile bool button_pressed = false;
 
-
 LedControl led_con = LedControl(Config::led_pin, LedState::LED_OFF);
 
 
