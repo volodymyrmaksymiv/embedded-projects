@@ -5,7 +5,7 @@ RelayContr::RelayContr(uint8_t pinOut, uint8_t pinRead):
     pinMode(pinRead, INPUT_PULLDOWN);    
 };
 
-void RelayContr::set(RelayState state){
+void RelayContr::set(RelayState state){ //setting up the state for pinOut
     this->state = state;
     digitalWrite(pinOut, static_cast<bool> (state));
 }
