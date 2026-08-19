@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #define BUTTON_PIN 1
 
+//software timer debug
 
 
 const uint8_t debounce_ms = 50;
@@ -27,15 +28,13 @@ void setup() {
 
 void loop() {
   if(interruptFired && millis() - timeWhenFired > 50) {
-    attachInterrupt(BUTTON_PIN, ISR, FALLING);
     interruptFired = !interruptFired;
     Serial.println("How many times interrupt fired: ");
     Serial.println(counter);
     counter = 0;
+    attachInterrupt(BUTTON_PIN, ISR, FALLING);
   } 
   else if (interruptFired && millis() - timeWhenFired < 50) {
     detachInterrupt(BUTTON_PIN);
   }
-
-
 }
